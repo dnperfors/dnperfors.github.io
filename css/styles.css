@@ -1,0 +1,104 @@
+@import url('https://cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css');
+body {
+  background-color: #FDF6E3; /* base3*/
+  color: #657B83; /* base00 */
+  font: 14px/1.5 'PT Serif', Georgia, serif;
+  padding: 50px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #CB4B16; /* orange */
+  margin: 0 0 20px;
+}
+
+h1, h2, h3 {
+  line-height: 1.1;
+}
+
+p, ul, ol, table, pre, dl {
+  margin: 0 0 20px;
+}
+
+blockquote {
+  border-left: 1px solid #657B83; /* base00 */
+  margin: 0;
+  padding: 0 0 0 25px;
+  font-style: italic;
+}
+
+a, a:active, a:visited {
+  color: #B58900; /* yellow */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code, pre {
+  background-color: #002B36; /* base03 */
+  color: #839496; /* base0 */
+  font-family: Hack, courier, monospace;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #657B83; /* base00 */
+}
+
+th {
+  background-color: #EEE8D5; /* base2 */
+  color: #586E75; /* base01 */
+}
+
+header {
+  width:25%;
+  float:left;
+  position:fixed;
+}
+
+section {
+  width:75%;
+  float:right;
+}
+
+footer {
+  width: 25%;
+  float:left;
+  position:fixed;
+  bottom:50px;
+}
+
+@media print, screen and (max-width: 960px) {
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+
+  header {
+  }
+
+  section {
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header {
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+  }
+}
