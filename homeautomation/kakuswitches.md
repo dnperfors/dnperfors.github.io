@@ -2,7 +2,7 @@ In order to automatically turn on and off some of my lights, I needed to be able
 These switches work on 433MHz and can be easily controlled via [pilight](https://pilight.org). This page describes how I found out how to control these switches.
 
 # Hardware
-In order to communicate with the kaka switches, you will need a 433MHz sender. Pilight has some recommendation for which to use and a good description on how to [connect the hardware] (http://manual.pilight.org/electronics/wiring.html)
+In order to communicate with the kaka switches, you will need a 433MHz sender. Pilight has some recommendation for which to use and a good description on how to [connect the hardware](http://manual.pilight.org/electronics/wiring.html)
 
 Since I had a different sender and receiver I followed some other tutorials on how to connect, making sure the data pins were connected to the same GPIO pins as described by pilight.
 
