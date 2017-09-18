@@ -9,7 +9,7 @@ The following list shows the tools I use most for development, explanations are 
 - Visual Studio
 - GVim
 - Git (Git Bash and Tortoise Git)
-- WebStorm (mostly for frontend development)
+- Visual Studio Code (mostly for frontend development)
 - SQL Server Developer edition
 
 Some other tool I use regularly are:
@@ -27,8 +27,9 @@ Within Visual Studio I use the following plugins:
 - Productivity Power Tools
 - Refactoring Essentials
 - Trevor
-- I hate #regions
+- I hate #regions (VS2015) or RegionExpander (VS2017)
 - GitDiffMargin
+- SonarLint
 
 ## Vim and config in Git
 
