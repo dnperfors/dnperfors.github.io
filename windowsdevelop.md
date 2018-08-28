@@ -10,24 +10,21 @@ The following list shows the tools I use most for development, explanations are 
 - GVim
 - Git (Git Bash and Tortoise Git)
 - Visual Studio Code (mostly for frontend development)
-- SQL Server Developer edition
 
 Some other tool I use regularly are:
 
-- Remote Desktop Connection Manager
 - Putty
+- VirtualBox
 
 ## Visual Studio
 
 Within Visual Studio I use the following plugins:
 
-- EditorConfig (not needed in VS2017)
 - VsVim
 - Microsoft CodeLens Code Health Indicator
 - Productivity Power Tools
 - Refactoring Essentials
-- Trevor
-- I hate #regions (VS2015) or RegionExpander (VS2017)
+- RegionExpander (VS2017)
 - GitDiffMargin
 - SonarLint
 
