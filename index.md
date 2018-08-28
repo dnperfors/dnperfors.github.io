@@ -11,8 +11,11 @@ In this journal I describe my views on software development. All kind of topics 
 Here are some notes about what tools I use:
 
 - [Windows develop](/windowsdevelop)
+- [Security](/security)
 
 ## Home automation
-Home automation is a new interest I have, the following pages describe several topics:
+
+Sometimes I do some little things with Home automation:
 
 - [Controlling kaku switches](/homeautomation/kakuswitches)
+- [Settingup Home Assistant](/homeautomation/settingup-home-assistant)
