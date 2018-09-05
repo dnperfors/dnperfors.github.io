@@ -1,6 +1,7 @@
 This is a cheatsheet of which Rolsyn NuGet packages is included in which Visual Studio version.
 
 ## Visual Studio 2015
+
 Roslyn version | Visual Studio version
 -------------- | ---------------------
 1.0.0          | 2015
