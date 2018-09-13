@@ -1,5 +1,8 @@
-Here I descie some techniques I use for reconnaissance work when I play a CTF. I don't think these are the best ways of doing things, but it does work for me.
-## arp-scan
+Here I descrive some techniques I use for reconnaissance work when I play a CTF. I don't think these are the best ways of doing things, but it does work for me.
+
+## network enumeration
+
+### arp-scan
 
 For simply scanning all devices on a local network (i.e. a virtual network for a CTF), I use arp-scan:
 
@@ -17,7 +20,11 @@ Finding out the IP of the target machine is trivial:
 - We know from the dhcp lease file that 192.168.56.100 is the DHCP server
 - So 192.168.56.101 should be the target machine
 
-## nmap
+### sparta
+
+[Sparta](https://github.com/SECFORCE/sparta) is an easy to use Network Infrastructure Penetration Testing Tool, that basically automates running nmap, nikto and several other tools. The tool has a graphical user interface, so I can't show any commands here.
+
+### nmap
 
 For portscanning and OS detection I use Nmap. Since the scans I perform are on an internal virtual network, I can use the following command:
 
@@ -25,3 +32,15 @@ For portscanning and OS detection I use Nmap. Since the scans I perform are on a
 root@kali:~# nmap -v -A -T5 -p 1-65535 192.168.56.101
 ```
 This takes some time, but will give some results in the end.
+
+### nikto
+
+For simple web application scanner, nikto is my first choice.
+
+```
+root@kali:~# nikto --host 192.168.56.101
+```
+
+## Local enumeration
+
+A great source for local enumeration can be found on https://pinkysplanet.net/nix-enumeration/
