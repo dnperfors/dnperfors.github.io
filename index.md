@@ -11,8 +11,9 @@ In this journal I describe my views on software development. All kind of topics 
 Here are some notes about what tools I use:
 
 - [Windows develop](/windowsdevelop)
-- [Security](/security/security)
+- [Penetration testing](/security/penetration-testing)
 - [Vulnhub](/security/vulnhub)
+- [Hack The Box](/security/hackthebox)
 
 ## Development
 
