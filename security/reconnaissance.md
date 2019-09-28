@@ -1,4 +1,4 @@
-Here I descrive some techniques I use for reconnaissance work when I play a CTF. I don't think these are the best ways of doing things, but it does work for me.
+Here I describe some techniques I use for reconnaissance work when I play a CTF. I don't think these are the best ways of doing things, but it does work for me.
 
 ## network enumeration
 
