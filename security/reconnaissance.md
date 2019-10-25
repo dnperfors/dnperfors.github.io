@@ -44,3 +44,10 @@ root@kali:~# nikto --host 192.168.56.101
 ## Local enumeration
 
 A great source for local enumeration can be found on https://pinkysplanet.net/nix-enumeration/
+
+### Useful oneliners
+
+On hackthebox, it might be usefull to get all the files modified between some dates. This can be done with the following command:
+```
+find / -type f -newermt "2019-10-10" ! -newermt "2019-10-12"  -ls 2>/dev/null
+```
